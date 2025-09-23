@@ -52,5 +52,34 @@
         },
         "button": false,
         "messages": []
+    },
+    "clanSystem": {
+        "enabled": false,
+        "channels": {
+            "staff": null,
+            "public": null
+        },
+        "roles": {
+            "authorized": []
+        },
+        "embed": {
+            "title": "🏰 Confirmação de Clã",
+            "description": "Clique no botão abaixo para solicitar a confirmação do seu clã no servidor!\n\n**Requisitos:**\n• Clã ativo com membros regulares\n• Discord próprio do clã\n• Líder responsável\n• Informações verdadeiras",
+            "color": "#FFD700",
+            "banner": null
+        },
+        "stats": {
+            "totalRequests": 0,
+            "approved": 0,
+            "rejected": 0,
+            "pending": 0
+        },
+        "settings": {
+            "cooldownMinutes": 60,
+            "maxPendingPerUser": 1,
+            "requireMinMembers": 5,
+            "autoDeleteRejected": true,
+            "logActions": true
+        }
     }
 }
