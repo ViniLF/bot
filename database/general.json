@@ -1,0 +1,56 @@
+{
+    "system": true,
+    "definition": {
+        "functionsTicket": {
+            "notifyuser": true,
+            "assumir": true,
+            "call": true,
+            "renomear": true,
+            "gerenciar": true,
+            "motivo": false
+        },
+        "channels": {
+            "logs": "1412389547144253531",
+            "feedback": "1412406831007137844",
+            "category": "1367548246607528056"
+        },
+        "role": "1412413229279481866"
+    },
+    "panel": {
+        "mensagem": {
+            "content": false,
+            "embeds": {
+                "title": "🎟️ Central de Suporte",
+                "desc": "Olá! Bem-vindo ao nosso atendimento.\nCaso esteja enfrentando problemas técnicos, dúvidas gerais ou precise de ajuda dentro do servidor, abra um ticket através do botão abaixo.\n\nNossa equipe de suporte está pronta para te ajudar o mais rápido possível.",
+                "banner": "https://cdn.discordapp.com/attachments/1412067513654837339/1412144459923329094/SOLARYS_-_Suporte.png?ex=68b73983&is=68b5e803&hm=9e71068bcaffca953a7c97d30a983c835eca0e4ce10bfc46fa2fbf7559b300ef&",
+                "cor": "#3498db"
+            },
+            "msg": {
+                "content": "Não Definido",
+                "banner": null
+            }
+        },
+        "functions": {
+            "Denúncias": {
+                "predesc": "Relate problemas ou infrações.",
+                "desc": "Utilize esta função para denunciar jogadores que descumprirem as regras do servidor. Todas as denúncias são sigilosas e avaliadas pela equipe de moderação.",
+                "banner": null,
+                "emoji": "🚨"
+            },
+            "Compras": {
+                "predesc": "Suporte relacionado à loja.",
+                "desc": "Abra um ticket aqui caso tenha dúvidas ou problemas com compras realizadas na loja, como produtos não entregues, dúvidas sobre planos ou formas de pagamento.",
+                "banner": null,
+                "emoji": "🛒"
+            },
+            "Suporte": {
+                "predesc": "Tire suas dúvidas ou peça ajuda.",
+                "desc": "Use esta função para abrir tickets relacionados a problemas técnicos, dificuldades dentro do servidor ou dúvidas gerais. Nossa equipe de suporte está pronta para te atender.",
+                "banner": null,
+                "emoji": "💬"
+            }
+        },
+        "button": false,
+        "messages": []
+    }
+}
